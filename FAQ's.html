@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <style>
+        #offcanvasDarkNavbar{
+          width: 300px;
+          
+        }
+
+        #navbar{
+          background-image:linear-gradient(rgba(104, 94, 94, 0.75), rgba(104, 94, 94, 0.75)), url(ruler.png);
+          border-radius: 10px;
+          background-size:cover;
+          background-position: center;
+        }
+
+        .accordion-item{
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-light bg-light" id="navbar">
+<div class="container-fluid">
+  <a class="navbar-brand navbar-dark" href="#">Metric Conversion</a>
+  <button class="navbar-toggler navbar-dark " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+    <span class="navbar-toggler-icon navbar-dark"></span>
+  </button>
+  <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Metric Conversion</h5>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+        
+        <li class="nav-item">
+          <a class="nav-link" href="eproject.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="charts.html">Charts</a>
+        </li>
+        
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Charts
+          </a>
+          <ul class="dropdown-menu dropdown-menu-light">
+            <li><a class="dropdown-item" href="#">Length</a></li>
+            <li><a class="dropdown-item" href="#">Area</a></li>
+            <li><a class="dropdown-item" href="#">Volume</a></li>
+            <li><a class="dropdown-item" href="#">Mass</a></li>
+            <li><a class="dropdown-item" href="#">Temmpreture</a></li>
+          </ul>
+        </li> -->
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Articles
+          </a>
+          <ul class="dropdown-menu dropdown-menu-light">
+            <li><a class="dropdown-item" href="#">SI System</a></li>
+            <li><a class="dropdown-item" href="#">Metric System</a></li>
+            <li><a class="dropdown-item" href="#">The Meter</a></li>
+            <li><a class="dropdown-item" href="#">US System</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="history.html">History of Measurement Units</a>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link" href="FAQ's.html">FAQ's</a>
+        </li>
+
+      </ul>
+      
+    </div>
+  </div>
+</div>
+</nav>
+
+</div>
+
+<br> <br>
+
+    <div class="container">
+        <h1>Frequently Asked Questions (FAQ's)</h1>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              How do I enter numbers in Scientific Notation?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">For scientific notation, you can type either a caret (^) or the letter e followed by a number to indicate an exponent. You can use both positive and negative exponents. For example, to indicate 0.012 , you can enter either of the following expressions: 1.2*10^-2.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              What is a knot? What is a nuatical mile?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">The term “knot”, in reference to currents, is defined as one nautical mile per hour and is used to measure speed. A nautical mile is slightly more than a standard mile. 1 nautical mile = 1.15 miles = 1.85 kilometers. 1 knot = 1.15 miles per hour = 1.85 kilometers per hour.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              What about rainfall? How do I convert between inches of rain, and millimters of rain?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Precipitation forms in the clouds when water vapor condenses into bigger and bigger droplets of water. When the drops are heavy enough, they fall to the earth. If a cloud is colder, like it would be at higher altitudes, the water droplets may freeze to form ice. 
+               <br> 1 in (inch) = 25.4 mm. <br>
+                1 gph = 0.0012 l/s.<br>
+                1 ft2 = 0.093 m2<br>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                What is the difference between the long ton, short ton, and metric ton?
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Is ton and metric ton same or different?
+                Ton is the name of any one of several units of measure. It has a long history and has acquired several meanings and uses. the tonne, also called the metric ton, which is 1,000 kilograms (about 2,204.6226218 pounds) or 1 megagram.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                At what tempreture are Celcius and Fahrenheit the same?
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">There are two important temperature scales, Celsius and Fahrenheit used in the world. There is a point on both scales where the temperatures in degrees are equal. This is - 40 ° C and - 40 ° F .</div>
+            </div>
+          </div>
+      </div>
+</div>
+
+    <script src="bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
